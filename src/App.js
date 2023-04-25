@@ -4,12 +4,12 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div className="App">
-      <div className="heading">
+      <div className="heading" id="home">
         <h1>Jacob Hewitson</h1>
         <h2>Software Developer, Passionate Learner, Ideal Employee</h2>
       </div>
       <Navbar />
-      <div className="site-content" id="home">
+      <div className="site-content">
         <h3>Welcome!</h3>
         <p>
           My name is Jacob Hewitson. I am a Software Engineer with a B.S. of
@@ -22,12 +22,20 @@ function App() {
         </button>
       </div>
       <div className="site-content" id="about-me">
+        <h4>Meet Jacob!</h4>
+        <img
+          id="profile-photo"
+          src={process.env.PUBLIC_URL + "/ProfilePhoto.jpg"}
+          alt="Jacob Hewitson"
+        ></img>
         <p></p>
       </div>
       <div className="site-content" id="projects">
+        <h4>Projects</h4>
         <p></p>
       </div>
       <div className="site-content" id="contact">
+        <h4>Contact</h4>
         <p></p>
       </div>
     </div>
