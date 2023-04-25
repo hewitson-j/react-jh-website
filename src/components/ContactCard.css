@@ -1,0 +1,27 @@
+#socials ul {
+    list-style: none;
+    align-items: center;
+  }
+  
+  #socials ul li {
+    padding: .5rem;
+    display: inline-flex;
+  }
+  
+  #socials ul li a {
+    margin: auto;
+    font-size: 16pt;
+    font-weight: bold;
+    flex-direction: row;
+    text-decoration: none;
+    color: red;
+    transition-duration: .25s;
+  }
+  
+  #socials ul li a:hover {
+    background-color: rgb(201, 201, 201);
+  }
+  
+  #email-me {
+    margin-bottom: 2rem;
+  }
