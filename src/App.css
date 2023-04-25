@@ -20,11 +20,11 @@
   margin: auto;
 }
 
-.site-content h3 {
+.site-content .content-header {
   font-size: 30pt;
 }
 
-.site-content h4 {
+.site-content .content-subheader {
   font-size: 25pt;
   margin: 2rem auto 1rem auto;
 }

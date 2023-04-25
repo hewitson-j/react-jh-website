@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import ContactCard from "./components/ContactCard";
+import Resume from "./components/Resume";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       </div>
       <Navbar />
       <div className="site-content">
-        <h3>Welcome!</h3>
+        <h3 className="content-header">Welcome!</h3>
         <p>
           My name is Jacob Hewitson. I am a Software Engineer with a B.S. of
           Computer Science. I'm really excited to work with you and provide
@@ -23,7 +24,7 @@ function App() {
         </button>
       </div>
       <div className="site-content" id="about-me">
-        <h4>Meet Jacob!</h4>
+        <h4 className="content-subheader">Meet Jacob!</h4>
         <img
           id="profile-photo"
           src={process.env.PUBLIC_URL + "/ProfilePhoto.jpg"}
@@ -32,7 +33,7 @@ function App() {
         <p></p>
       </div>
       <div className="site-content" id="projects">
-        <h4>Projects</h4>
+        <h4 className="content-subheader">Projects</h4>
         <p>
           Here's some of the projects I've done. All of this information can be
           found in my Github which I'll link below:
@@ -42,10 +43,11 @@ function App() {
         </a>
       </div>
       <div className="site-content" id="resume">
-        <h4>Resume</h4>
+        <h4 className="content-subheader">Resume</h4>
+        <Resume />
       </div>
       <div className="site-content" id="contact">
-        <h4>Contact</h4>
+        <h4 className="content-subheader">Contact</h4>
         <ContactCard />
       </div>
     </div>

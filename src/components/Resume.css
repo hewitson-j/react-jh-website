@@ -1,0 +1,13 @@
+.resume-section-headers {
+    font-size: 16pt;
+}
+
+.task-summaries {
+    /* display: block !important; */
+    text-align: left;
+}
+
+.skills-item {
+    list-style: none;
+    text-align: center;
+}
