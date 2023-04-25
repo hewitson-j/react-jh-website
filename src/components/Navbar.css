@@ -16,8 +16,10 @@ nav ul li {
 nav ul li a {
     padding: 3rem;
     padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
     text-decoration: none;
     color: white;
+    font-size: 15pt;
     
 }
 
