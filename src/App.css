@@ -65,3 +65,7 @@ button:hover {
   font-size: 16pt;
   font-weight: bold;
 }
+
+hr {
+  width: 75%;
+}

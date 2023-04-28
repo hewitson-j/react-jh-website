@@ -11,3 +11,7 @@
     list-style: none;
     text-align: center;
 }
+
+.award-description {
+    font-size: 12pt !important;
+}

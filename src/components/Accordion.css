@@ -1,0 +1,26 @@
+.accordion-section {
+    width: 75%;
+    margin: auto;
+}
+
+.accordion-header {
+    font-size: 18pt;
+    font-weight: bold;
+    padding: 1rem;
+    margin: auto;
+    background-color: #000b82;
+    color: white;
+    border: 1px gray solid;
+}
+
+.accordion-header:hover {
+    background-color: #030a55;
+    transition-duration: .25s;
+}
+
+.accordion-content {
+    font-size: 16pt;
+    margin: auto;
+    padding: 1rem;
+    border: 1px gray solid;
+}

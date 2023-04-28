@@ -20,7 +20,7 @@ function Resume() {
           IT Support Specialist - The Church of Jesus Christ of Latter-Day
           Saints
         </h4>
-        <p>From Apr 2022 to Current</p>
+        <h5>From Apr 2022 to Current</h5>
         <ul>
           <li className="task-summaries">
             Supported and maintained software operated by the organization which
@@ -38,7 +38,7 @@ function Resume() {
         </ul>
 
         <h4>Personal Banker - Deseret First Credit Union</h4>
-        <p>From Jun 2021 to Apr 2022</p>
+        <h5>From Jun 2021 to Apr 2022</h5>
         <ul>
           <li className="task-summaries">
             Developed and advocated for a solution that optimized our banking
@@ -59,7 +59,7 @@ function Resume() {
         </ul>
 
         <h4>High-Risk Credit Analyst - RC Willey Home Furnishings</h4>
-        <p>From Mar 2020 to Jun 2021</p>
+        <h5>From Mar 2020 to Jun 2021</h5>
         <ul>
           <li className="task-summaries">
             Managed accounting for customer financing.
@@ -71,7 +71,7 @@ function Resume() {
         </ul>
 
         <h4>Office Supervisor - RC Willey Home Furnishings</h4>
-        <p>From May 2019 to Mar 2020</p>
+        <h5>From May 2019 to Mar 2020</h5>
         <ul>
           <li className="task-summaries">
             Developed and strengthened a team of 10 associates to be able to
@@ -90,7 +90,7 @@ function Resume() {
         <h4>
           Missionary Volunteer - The Church of Jesus Christ of Latter-Day Saints
         </h4>
-        <p>From Dec 2016 to Dec 2018</p>
+        <h5>From Dec 2016 to Dec 2018</h5>
         <ul>
           <li className="task-summaries">
             Lead and trained a district of 6 missionaries
@@ -153,25 +153,27 @@ function Resume() {
         <h4 className="resume-section-headers">Awards</h4>
 
         <h4>Pro-Protector Award - Deseret First Credit Union, Feb 2022</h4>
-        <p>
+        <p className="award-description">
           Obtained the highest number of referrals in the company (Q4 2021).
         </p>
 
         <h4>
           Master Problem Solver Award - Deseret First Credit Union, Jan 2022
         </h4>
-        <p>Apprehended a fraudster attempting to scam the credit union.</p>
+        <p className="award-description">
+          Apprehended a fraudster attempting to scam the credit union.
+        </p>
 
         <h4>
           Idea Submission Award 2021 - Deseret First Credit Union, Oct 2021
         </h4>
-        <p>
+        <p className="award-description">
           Submitted an idea and plan to optimize our banking application
           software.
         </p>
 
         <h4>We Show How Award - Deseret First Credit Union, Aug 2021 </h4>
-        <p>
+        <p className="award-description">
           Provided excellent leadership in leading our branch to achieve our
           goals and overcome obstacles.
         </p>
@@ -179,7 +181,7 @@ function Resume() {
         <h4>
           Employee of the Month Award - RC Willey Home Furnishings, Aug 2019
         </h4>
-        <p>
+        <p className="award-description">
           Given for outstanding performance and improvements made to office
           productivity and processes.
         </p>

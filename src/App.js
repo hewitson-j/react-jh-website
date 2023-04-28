@@ -2,6 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import ContactCard from "./components/ContactCard";
 import Resume from "./components/Resume";
+import Accordion from "./components/Accordion";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <a href="#projects">Click here!</a>
         </button>
       </div>
+      <hr></hr>
       <div className="site-content" id="about-me">
         <h4 className="content-subheader">Meet Jacob!</h4>
         <img
@@ -32,6 +34,7 @@ function App() {
         ></img>
         <p></p>
       </div>
+      <hr></hr>
       <div className="site-content" id="projects">
         <h4 className="content-subheader">Projects</h4>
         <p>
@@ -41,11 +44,16 @@ function App() {
         <a id="github-link" href="https://github.com/hewitson-j">
           github.com/hewitson-j
         </a>
+        <br></br>
+        <br></br>
+        <Accordion />
       </div>
+      <hr></hr>
       <div className="site-content" id="resume">
         <h4 className="content-subheader">Resume</h4>
         <Resume />
       </div>
+      <hr></hr>
       <div className="site-content" id="contact">
         <h4 className="content-subheader">Contact</h4>
         <ContactCard />
