@@ -5,6 +5,7 @@ import Resume from "./components/Resume";
 import Accordion from "./components/Accordion";
 import AboutMe from "./components/AboutMe";
 import Copyright from "./components/Copyright";
+import MobileNavbar from "./components/MobileNavbar";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <h2>Software Developer, Passionate Learner, Ideal Employee</h2>
       </div>
       <Navbar />
+      <MobileNavbar />
       <div className="site-content">
         <h3 className="content-header">Welcome!</h3>
         <p>
