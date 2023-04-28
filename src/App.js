@@ -4,6 +4,7 @@ import ContactCard from "./components/ContactCard";
 import Resume from "./components/Resume";
 import Accordion from "./components/Accordion";
 import AboutMe from "./AboutMe";
+import Copyright from "./components/Copyright";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
         <h4 className="content-subheader">Contact</h4>
         <ContactCard />
       </div>
+      <Copyright />
     </div>
   );
 }
