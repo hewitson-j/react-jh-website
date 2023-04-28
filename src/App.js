@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import ContactCard from "./components/ContactCard";
 import Resume from "./components/Resume";
 import Accordion from "./components/Accordion";
+import AboutMe from "./AboutMe";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
           <a href="#projects">Click here!</a>
         </button>
       </div>
+      <br></br>
+      <br></br>
       <hr></hr>
       <div className="site-content" id="about-me">
         <h4 className="content-subheader">Meet Jacob!</h4>
@@ -32,7 +35,7 @@ function App() {
           src={process.env.PUBLIC_URL + "/ProfilePhoto.jpg"}
           alt="Jacob Hewitson"
         ></img>
-        <p></p>
+        <AboutMe />
       </div>
       <hr></hr>
       <div className="site-content" id="projects">
