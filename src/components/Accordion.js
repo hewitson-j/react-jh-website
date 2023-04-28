@@ -104,6 +104,13 @@ function Accordion() {
           . You may also look at the repository{" "}
           <a href="https://github.com/hewitson-j/CalculatorApp">here</a>. Also,
           below I have included an image of the finished product:
+          <br></br>
+          <br></br>
+          <img
+            id="profile-photo"
+            src={process.env.PUBLIC_URL + "/images/Calculator.jpg"}
+            alt="Jacob Hewitson"
+          ></img>
         </div>
       </div>
       <div className="accordion-section">
@@ -129,6 +136,13 @@ function Accordion() {
           . You may also look at the repository{" "}
           <a href="https://github.com/hewitson-j/Clock">here</a>. Also, below I
           have included an image of the finished product:
+          <br></br>
+          <br></br>
+          <img
+            id="profile-photo"
+            src={process.env.PUBLIC_URL + "/images/Clock.jpg"}
+            alt="Jacob Hewitson"
+          ></img>
         </div>
       </div>
       <div className="accordion-section">
@@ -154,6 +168,13 @@ function Accordion() {
           . You may also look at the repository{" "}
           <a href="https://github.com/hewitson-j/Timer">here</a>. Also, below I
           have included an image of the finished product:
+          <br></br>
+          <br></br>
+          <img
+            id="profile-photo"
+            src={process.env.PUBLIC_URL + "/images/Timer.jpg"}
+            alt="Jacob Hewitson"
+          ></img>
         </div>
       </div>
       <div className="accordion-section">
@@ -211,6 +232,13 @@ function Accordion() {
           repository private, upon request I can provide access to the
           repository and the application as well as any related documents.
           Below, however, is an image of the application UI for reference:
+          <br></br>
+          <br></br>
+          <img
+            id="profile-photo"
+            src={process.env.PUBLIC_URL + "/images/Software-1.jpg"}
+            alt="Jacob Hewitson"
+          ></img>
         </div>
       </div>
       <div className="accordion-section">
@@ -239,6 +267,13 @@ function Accordion() {
           repository private, upon request I can provide access to the
           repository and the application as well as any related documents.
           Below, however, is an image of the application UI for reference:
+          <br></br>
+          <br></br>
+          <img
+            id="profile-photo"
+            src={process.env.PUBLIC_URL + "/images/Software-2.jpg"}
+            alt="Jacob Hewitson"
+          ></img>
         </div>
       </div>
       <div className="accordion-section">
@@ -275,6 +310,18 @@ function Accordion() {
           repository and the application as well as any related documents.
           However, below I have included screenshots of the application UI for
           reference:
+          <br></br>
+          <br></br>
+          <img
+            id="profile-photo"
+            src={process.env.PUBLIC_URL + "/images/DSA-A.jpg"}
+            alt="Jacob Hewitson"
+          ></img>
+          <img
+            id="profile-photo"
+            src={process.env.PUBLIC_URL + "/images/DSA-B.jpg"}
+            alt="Jacob Hewitson"
+          ></img>
         </div>
       </div>
       <div className="accordion-section">
@@ -305,13 +352,30 @@ function Accordion() {
           repository and the application as well as any related documents.
           Below, however, I have included a screenshot of the application in
           action:
+          <br></br>
+          <br></br>
+          <img
+            id="profile-photo"
+            src={process.env.PUBLIC_URL + "/images/ScriptingII.jpg"}
+            alt="Jacob Hewitson"
+          ></img>
         </div>
       </div>
       <div className="accordion-section">
-        <div class="accordion-header">
+        <div
+          class="accordion-header"
+          onClick={() => {
+            let content = document.getElementById("capstone");
+            if (content.style.display === "none") {
+              content.style.display = "block";
+            } else {
+              content.style.display = "none";
+            }
+          }}
+        >
           Youtube Analytics Calculator - University Capstone
         </div>
-        <div class="accordion-content">
+        <div class="accordion-content" id="capstone">
           I did this project as the final capstone of my Bachelors of Science:
           Computer Science from Western Governors University/WGU. This
           application was made in <b>Jupyter Notebooks</b> and{" "}

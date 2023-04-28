@@ -35,7 +35,7 @@ function App() {
         <h4 className="content-subheader">Meet Jacob!</h4>
         <img
           id="profile-photo"
-          src={process.env.PUBLIC_URL + "/ProfilePhoto.jpg"}
+          src={process.env.PUBLIC_URL + "/images/ProfilePhoto.jpg"}
           alt="Jacob Hewitson"
         ></img>
         <AboutMe />
