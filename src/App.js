@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import ContactCard from "./components/ContactCard";
 import Resume from "./components/Resume";
 import Accordion from "./components/Accordion";
-import AboutMe from "./AboutMe";
+import AboutMe from "./components/AboutMe";
 import Copyright from "./components/Copyright";
 
 function App() {
