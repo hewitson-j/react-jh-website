@@ -24,4 +24,5 @@
     padding: 1rem;
     border: 1px gray solid;
     transition-duration: .25s;
+    display: none;
 }
