@@ -37,7 +37,7 @@ function Resume() {
           </li>
         </ul>
 
-        <h4>Personal Banker - Deseret First Credit Union</h4>
+        {/* <h4>Personal Banker - Deseret First Credit Union</h4>
         <h5>From Jun 2021 to Apr 2022</h5>
         <ul>
           <li className="task-summaries">
@@ -102,6 +102,40 @@ function Resume() {
           <li className="task-summaries">
             Was chosen to serve as the mission president’s personal secretary,
             created processes to automate day-to-day secretarial tasks
+          </li>
+        </ul> */}
+
+        <h4>Other Professional Roles</h4>
+        <h5>From Nov 2015 to Apr 2022</h5>
+        <p>Other roles I have worked include:</p>
+        <ul>
+          <li className="skills-item other-jobs">Personal Banker</li>
+          <li className="skills-item other-jobs">Credit Analyst</li>
+          <li className="skills-item other-jobs">Office Supervisor</li>
+          <li className="skills-item other-jobs">Missionary Volunteer</li>
+        </ul>
+        <p>
+          Some of the responsibilites I had in these roles which relate to
+          software development are:
+        </p>
+        <ul>
+          <li className="task-summaries">
+            Developed a software proposal for our banking software which would
+            protect customer credit rating from being unnecessarily deducted.
+            Saw this through from proposal to implementation.
+          </li>
+          <li className="task-summaries">
+            Collaborated and planned with team to be able to achieve and exceed
+            production goals for 6 months in a row.
+          </li>
+          <li className="task-summaries">
+            Organized and trained a team of 10 colleagues. With the training and
+            supervision given, the team was able to consistently meet production
+            quotas and finish projects within a given timeframe.
+          </li>
+          <li className="task-summaries">
+            Automated secretarial tasks using technology which saved 2 hours
+            weekly processing time immigration paperwork for missionaries.
           </li>
         </ul>
       </div>

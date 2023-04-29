@@ -26,3 +26,9 @@
     transition-duration: .25s;
     display: none;
 }
+
+@media only screen and (max-width: 900px) {
+    .accordion-section {
+        width: 100%;
+    }
+}

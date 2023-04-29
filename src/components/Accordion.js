@@ -109,7 +109,7 @@ function Accordion() {
           <img
             id="profile-photo"
             src={process.env.PUBLIC_URL + "/images/Calculator.jpg"}
-            alt="Jacob Hewitson"
+            alt="Calculator App"
           ></img>
         </div>
       </div>
@@ -173,7 +173,7 @@ function Accordion() {
           <img
             id="profile-photo"
             src={process.env.PUBLIC_URL + "/images/Timer.jpg"}
-            alt="Jacob Hewitson"
+            alt="Timer App"
           ></img>
         </div>
       </div>
@@ -237,7 +237,7 @@ function Accordion() {
           <img
             id="profile-photo"
             src={process.env.PUBLIC_URL + "/images/Software-1.jpg"}
-            alt="Jacob Hewitson"
+            alt="Inventory Tracker"
           ></img>
         </div>
       </div>
@@ -272,7 +272,7 @@ function Accordion() {
           <img
             id="profile-photo"
             src={process.env.PUBLIC_URL + "/images/Software-2.jpg"}
-            alt="Jacob Hewitson"
+            alt="Appointment Tracker"
           ></img>
         </div>
       </div>
@@ -315,12 +315,12 @@ function Accordion() {
           <img
             id="profile-photo"
             src={process.env.PUBLIC_URL + "/images/DSA-A.jpg"}
-            alt="Jacob Hewitson"
+            alt="Route Calculator Terminal"
           ></img>
           <img
             id="profile-photo"
             src={process.env.PUBLIC_URL + "/images/DSA-B.jpg"}
-            alt="Jacob Hewitson"
+            alt="Route Calculator Terminal"
           ></img>
         </div>
       </div>
@@ -357,7 +357,7 @@ function Accordion() {
           <img
             id="profile-photo"
             src={process.env.PUBLIC_URL + "/images/ScriptingII.jpg"}
-            alt="Jacob Hewitson"
+            alt="Student Roster Terminal"
           ></img>
         </div>
       </div>

@@ -70,3 +70,23 @@ button:hover {
 hr {
   width: 75%;
 }
+
+@media only screen and (max-width: 600px) {
+  .site-content p {
+    font-size: 15pt !important;
+  }
+
+  .heading h1 {
+    font-size: 40pt;
+    margin: auto;
+    padding: 1rem 1rem;
+  }
+
+  .heading h2 {
+    font-size: 15pt;
+  }
+
+  #profile-photo {
+    width: 70%;
+  }
+}
