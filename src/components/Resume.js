@@ -7,10 +7,10 @@ function Resume() {
         <h4 className="resume-section-headers">Education History</h4>
         <h4>Western Governors University - B.S. of Computer Science</h4>
         <p>
-          Graduated Nov 2022. Relevant courses I’ve taken include the following:
-          Software I & II (development of Java applications), Data Structures
-          and Algorithms I & II, Scripting and Programming I & II, Data
-          Management (SQL Databases), Web Development Foundations, etc.
+          <b>Graduated Nov 2022.</b> Relevant courses I’ve taken include the
+          following: Software I & II (development of Java applications), Data
+          Structures and Algorithms I & II, Scripting and Programming I & II,
+          Data Management (SQL Databases), Web Development Foundations, etc.
         </p>
       </div>
       <hr></hr>

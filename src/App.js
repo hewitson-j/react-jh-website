@@ -6,6 +6,7 @@ import Accordion from "./components/Accordion";
 import AboutMe from "./components/AboutMe";
 import Copyright from "./components/Copyright";
 import MobileNavbar from "./components/MobileNavbar";
+import Secret from "./components/Secret";
 
 function App() {
   return (
@@ -65,6 +66,8 @@ function App() {
         <ContactCard />
       </div>
       <Copyright />
+      <Secret />
+      <br></br>
     </div>
   );
 }
